@@ -1,0 +1,15 @@
+{
+  "name":"janizol/magento-storelocator",
+  "type":"magento-module",
+  "homepage":"https://github.com/janizol/Magento_storelocator/",
+  "description":"Magento extension for a storelocator.",
+  "authors":[
+    {
+      "name":"Janizol Adams",
+      "email":"janizoladams@gmail.com"
+    }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer":"*"
+  }
+}
