@@ -11,5 +11,15 @@
   ],
   "require":{
     "magento-hackathon/magento-composer-installer":"*"
+  },
+  "extra":{
+    "map":[
+      ["app/etc/modules/Pepkor_Storelocator.xml", "app/etc/modules/Pepkor_Storelocator.xml"],
+      ["app/code/local/Pepkor/Storelocator/", "app/code/local/Pepkor/Storelocator/"],
+      ["app/design/adminhtml/default/default/layout/", "app/design/adminhtml/default/default/layout/"],
+      ["app/design/adminhtml/default/default/template/storelocator/", "app/design/adminhtml/default/default/template/storelocator/"],
+      ["app/design/frontend/base/default/layout/", "app/design/frontend/base/default/layout/"],
+      ["app/design/frontend/base/default/template/storelocator/", "app/design/frontend/base/default/template/storelocator/"]
+    ]
   }
 }
