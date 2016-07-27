@@ -10,7 +10,7 @@
             </action>
         </reference>
         <reference name="content">
-            <block type="storelocator/myblock"  name="stores_mybloc" template="storelocator/stores.phtml" />
+            <block type="storelocator/storelocator"  name="storelocator" template="storelocator/stores.phtml" />
         </reference>
     </storelocator_index_index>
 </layout>

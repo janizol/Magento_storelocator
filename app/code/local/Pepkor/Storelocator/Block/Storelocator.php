@@ -6,7 +6,7 @@
  * Time: 1:20 PM
  */
 
-class Pepkor_Storelocator_Block_Myblock extends Mage_Core_Block_Template
+class Pepkor_Storelocator_Block_Storelocator extends Mage_Core_Block_Template
 {
     public function methodblock()
     {

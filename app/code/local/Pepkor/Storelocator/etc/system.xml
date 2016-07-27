@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <storelocator translate="label" module="storelocator">
+            <label>Pepkor Storelocator</label>
+            <sort_order>6</sort_order>
+        </storelocator>
+    </tabs>
+    <sections>
+        <storelocator translate="label" module="storelocator">
+            <label>Google Maps Configuration</label>
+            <tab>storelocator</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <section_one translate="label">
+                    <label>Google Maps</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <google_maps_api_key>
+                            <label>API Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Google Maps Api key</comment>
+                        </google_maps_api_key>
+                    </fields>
+                </section_one>
+            </groups>
+        </storelocator>
+    </sections>
+</config>

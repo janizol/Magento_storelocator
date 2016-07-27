@@ -1,0 +1,53 @@
+/**************************
+ STORE LOCATOR
+ **************************/
+
+#storelocator-search .form-list input[type="text"] { width: 180px !important; }
+
+.search-wrapper { float: left; }
+#storelocator-search .form-list label { width: 120px; }
+
+#storelocator-container #map-canvas { float: left !important; display: inline-block !important;}
+
+#storelocator-container ul#marker_list {width: 40%; float: right; display: inline-block;}
+
+#storelocator-container h1 {text-align: center; font-size: 30px; font-weight: 600; padding: 0 0 10px;}
+
+#storelocator-container ul#marker_list li{
+    width: 100%;
+    background: transparent none repeat scroll 0 0;
+    border-color: #ffffff #ffffff #d1d2d4 #ffffff;
+    border-style: solid;
+    border-width: 1px 0;
+    float: left;
+    font-size: 13px;
+    height: 32px;
+    padding: 6px;
+}
+
+/*Look at responsive sizes*/
+/* Extra Small devices (tablets, 320px and up)
+@media (min-width: 320px) {
+    #storelocator-container #map_canvas { margin-bottom: 25px !important; width: 100% !important; height: 250px !important;}
+    .custom-col-lg-width { width: 100% !important; }
+}
+*/
+
+/* Small devices (tablets 420px and up)
+@media (min-width: 420px) {
+    #storelocator-container #map_canvas { margin-bottom: 25px !important; width: 100% !important; height: 320px !important; }
+    .custom-col-lg-width { width: 100% !important; }
+}
+*/
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #storelocator-container #map_canvas { margin-bottom: 25px !important;  width: 97% !important; height: 420px !important; display: inline-block !important;}
+    .custom-col-lg-width { width: 60% !important; }
+}
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    #storelocator-container #map_canvas { margin-bottom: 25px !important; width: 640px !important; height: 480px !important; display: inline-block !important;}
+    .custom-col-lg-width { width: 60% !important; }
+}
+*/

@@ -14,14 +14,9 @@ class Pepkor_Storelocator_IndexController extends Mage_Core_Controller_Front_Act
         $this->renderLayout();
     }
 
-    public function mamethodeAction ()
-    {
-        echo 'test mymethod';
-    }
-
     public function getJsonStoresAction(){
         $province_id = $this->getRequest()->getPost('province_id');
-        $stores = $this->getLayout()->getBlockSingleton('storelocator/myblock')->getJsonStores(false, $province_id);
-        echo $stores;
+        $stores = $this->getLayout()->getBlockSingleton('storelocator/storelocator')->getJsonStores(false, $province_id);
+        return $stores;
     }
 }

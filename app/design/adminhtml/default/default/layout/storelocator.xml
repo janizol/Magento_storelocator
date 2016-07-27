@@ -5,12 +5,12 @@
     </default>
     <adminstorelocator_adminhtml_index_index>
         <reference name="content">
-            <block type="storelocator/myblock"  name="myblock" template="storelocator/stores.phtml" />
+            <block type="storelocator/storelocator"  name="storelocator" template="storelocator/stores.phtml" />
         </reference>
     </adminstorelocator_adminhtml_index_index>
     <adminstorelocator_adminhtml_index_edit>
         <reference name="content">
-            <block type="storelocator/myblock"  name="myblock" template="storelocator/stores_edit.phtml" />
+            <block type="storelocator/storelocator"  name="storelocator" template="storelocator/stores_edit.phtml" />
         </reference>
     </adminstorelocator_adminhtml_index_edit>
 </layout>

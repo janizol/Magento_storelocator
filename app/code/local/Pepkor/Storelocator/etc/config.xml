@@ -11,6 +11,11 @@
                 <class>Pepkor_Storelocator_Block</class>
             </storelocator>
         </blocks>
+        <helpers>
+            <storelocator>
+                <class>Pepkor_Storelocator_Helper</class>
+            </storelocator>
+        </helpers>
         <models>
             <storelocator>
                 <class>Pepkor_Storelocator_Model</class>
@@ -107,7 +112,7 @@
         <menu>
             <storelocator translate="title" module="adminhtml">
                 <title>Storelocator</title>
-                <sort_order>100</sort_order>
+                <sort_order>90</sort_order>
                 <children>
                     <set_time>
                         <title>Stores</title>
@@ -116,5 +121,24 @@
                 </children>
             </storelocator>
         </menu>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <storelocator>
+                                            <title>Custom Configuration Section</title>
+                                        </storelocator>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
     </adminhtml>
 </config>
